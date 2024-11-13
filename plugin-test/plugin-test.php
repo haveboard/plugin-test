@@ -27,8 +27,8 @@ if( ! class_exists( 'pluginTest' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '1.0';
-			$this->cache_key = 'custom_3mw_upd';
+			$this->version = '1.0.1';
+			$this->cache_key = 'plugin_test_upd';
 			$this->cache_allowed = false;
 
 			add_filter( 'plugins_api', array( $this, 'info' ), 20, 3 );

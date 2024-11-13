@@ -7,11 +7,11 @@
 	"requires" : "3.0",
 	"tested" : "5.8",
 	"requires_php" : "5.3",
-	"last_updated" : "2024-11-12 02:10:00",
+	"last_updated" : "2024-11-12 09:10:00",
 	"sections" : {
 		"description" : "This simple plugin does nothing, only gets updates from a custom server",
 		"installation" : "Click the activate button and that's it.",
-		"changelog" : "<h4>1.0 –  12 november 2024</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
+		"changelog" : "<h4>1.0.1 –  12 november 2024</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
 	},
 	"banners" : {
         "low" : "https://github.com/haveboard/plugin-test/3mw-772x250.webp",
