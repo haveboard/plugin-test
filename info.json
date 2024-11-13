@@ -3,7 +3,7 @@
 	"slug" : "plugin-test",
 	"author" : "<a href='https://haveboard.com'>haveboard</a>",
 	"version" : "1.0.1",
-	"download_url" : "https://github.com/haveboard/plugin-test/plugin-test.zip",
+	"download_url" : "https://github.com/haveboard/plugin-test/raw/refs/heads/main/plugin-test.zip",
 	"requires" : "3.0",
 	"tested" : "5.8",
 	"requires_php" : "5.3",
@@ -14,7 +14,7 @@
 		"changelog" : "<h4>1.0.1 –  12 november 2024</h4><ul><li>Bug fixes.</li><li>Initital release.</li></ul>"
 	},
 	"banners" : {
-        "low" : "https://github.com/haveboard/plugin-test/3mw-772x250.webp",
-        "high" : "https://github.com/haveboard/plugin-test/3mw-1544x500.webp"
+        "low" : "https://github.com/haveboard/plugin-test/blob/main/3mw-772x250.webp",
+        "high" : "https://github.com/haveboard/plugin-test/blob/main/3mw-1544x500.webp"
     }
 }
