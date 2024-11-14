@@ -1,11 +1,10 @@
 <?php
 /*
  * Plugin name: Plugin Test
- * Description: 
- * Version: 2.0
+ * Description: Plugin Updater Test
+ * Version: 2.0.1
  * Author: haveboard
  * Author URI: https://haveboard.com
- * Description:  Misha Rudrastyh https://rudrastyh.com https://github.com/rudrastyh/misha-update-checker/
  * License: GPL
  */
 
