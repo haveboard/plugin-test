@@ -43,7 +43,7 @@ if( ! class_exists( 'pluginTest' ) ) {
 			if( false === $remote || ! $this->cache_allowed ) {
 
 				$remote = wp_remote_get(
-					'https://haveboard.github.io/plugin-releases/plugin-test/info.json',
+					'https://haveboard.github.io/plugin-test/info.json',
 					array(
 						'timeout' => 10,
 						'headers' => array(

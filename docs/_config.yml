@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: haveboard custom plugin release manifests
+description: Bookmark this to keep an eye on my project updates!
+baseurl: "/plugin-test" # the subpath of your site, e.g. /blog
+url: "https://haveboard.github.io" # the base hostname & protocol for your site
