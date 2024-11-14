@@ -2,7 +2,7 @@
 /*
  * Plugin name: Plugin Test
  * Description: 
- * Version: 1.0.1
+ * Version: 2.0
  * Author: haveboard
  * Author URI: https://haveboard.com
  * Description:  Misha Rudrastyh https://rudrastyh.com https://github.com/rudrastyh/misha-update-checker/
@@ -27,9 +27,9 @@ if( ! class_exists( 'pluginTest' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '1.0.1';
+			$this->version = '2.0';
 			$this->cache_key = 'plugin_test_upd';
-			$this->cache_allowed = false;
+			$this->cache_allowed = true;
 
 			add_filter( 'plugins_api', array( $this, 'info' ), 20, 3 );
 			add_filter( 'site_transient_update_plugins', array( $this, 'update' ) );
