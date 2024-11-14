@@ -27,7 +27,7 @@ if( ! class_exists( 'pluginTest' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '2.0';
+			$this->version = '2.0.1';
 			$this->cache_key = 'plugin_test_upd';
 			$this->cache_allowed = false;
 
