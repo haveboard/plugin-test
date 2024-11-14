@@ -2,7 +2,7 @@
 /*
  * Plugin name: Plugin Test
  * Description: Plugin Updater Test
- * Version: 2.0.2
+ * Version: 2.0.3
  * Author: haveboard
  * Author URI: https://haveboard.com
  * License: GPL
@@ -26,7 +26,7 @@ if( ! class_exists( 'pluginTest' ) ) {
 		public function __construct() {
 
 			$this->plugin_slug = plugin_basename( __DIR__ );
-			$this->version = '2.0.2';
+			$this->version = '2.0.3';
 			$this->cache_key = 'plugin_test_upd';
 			$this->cache_allowed = false;
 
